@@ -1,15 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import './config.scss'
 import reportWebVitals from './reportWebVitals';
+import {AlmostLoginScreen} from "./components/ourTestComponent";
+import {testStore} from "./store";
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <AlmostLoginScreen testStore={testStore}/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
+
+// render(<AlmostLoginScreen/>, document.getElementById("root"))
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
