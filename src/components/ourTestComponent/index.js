@@ -43,6 +43,12 @@ export const AlmostLoginScreen = observer(({ testStore }) => {
 
     function login(name, pass) {
         if (name && pass) {
+            setStyles({
+                input_1: 'input-default',
+                input_2: 'input-default',
+                alertText_1: 'alert-text hidden',
+                alertText_2:'alert-text hidden'
+            })
             doSomtthing(name,pass)
         } else {
             alertWithWrongData(name,pass);
