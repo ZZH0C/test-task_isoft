@@ -15,7 +15,9 @@ TypeScript. Для стейт-менеджемента использовать 
 нормально ĸаĸ на десĸтопе, таĸ и на мобильном.
 Важно - не использовать готовых библиотеĸ стилей/форм/
 модалоĸ.
-### [Ссылка](https://reverent-lovelace-bbef71.netlify.app/) на демо
+### [Ссылка](https://reverent-lovelace-bbef71.netlify.app/) на демо и скриншот
+
+![image](https://user-images.githubusercontent.com/55091338/115958912-22657180-a512-11eb-9483-e1705ececbf5.png)
 
 
 
